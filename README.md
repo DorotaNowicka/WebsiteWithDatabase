@@ -8,9 +8,9 @@ PHP, HTML, CSS, and SQL in project for classes
   src="/ScreenShots/main1.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 400px">  
+  style="display: inline-block; margin: 0 auto; width: 350px">  
 <img
   src="/ScreenShots/rejestracja1.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 400px">
+  style="display: inline-block; margin: 0 auto; width: 350px">
