@@ -5,19 +5,15 @@ PHP, HTML, CSS, and SQL in project for classes
 
 
 <img
-  src="/image/main.jpg"
+  src="/ScreenShots/main.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px">
+  style="display: inline-block; margin: 0 auto; width: 450px">
+  
+
   
 <img
-  src="/image/logowanie.jpg"
+  src="/ScreenShots/rejestracja.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px">
-  
-<img
-  src="/image/rejestracja.jpg"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 300px">
+  style="display: inline-block; margin: 0 auto; width: 450px">
