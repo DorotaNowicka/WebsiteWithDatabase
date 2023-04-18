@@ -1,0 +1,40 @@
+INSERT INTO PORT VALUES ('Shanghai', 'Indyjski', '50E ', '25N ');                                       
+INSERT INTO PORT VALUES ('Kyoto', 'Pacyfik', '45E ', '40N ');                                           
+INSERT INTO PORT VALUES ('Pearl Harbour', 'Pacyfik', '45E ', '30N ');                                   
+INSERT INTO PORT VALUES ('San Francisco', 'Pacyfik', '90E ', '30N ');                                   
+INSERT INTO PORT VALUES ('Sydney', 'Pacyfik', '90E ', '30N ');                                          
+INSERT INTO PORT VALUES ('Wellington', 'Pacyfik', '80E ', '30N ');                                      
+INSERT INTO PORT VALUES ('New York', 'Atlantyk', '110W', '40N ');                                       
+
+INSERT INTO REGATY VALUES ('Sail', 2020, '2020-01-02','2020-01-30');    
+INSERT INTO REGATY VALUES ('Sail',1995,'1995-01-02','1995-01-30' );    
+INSERT INTO REGATY VALUES ('Cutty Sark', 1995, '1995-01-02','1995-01-30');                           
+INSERT INTO REGATY VALUES ('Cutty Sark', 1996, '1996-01-02','1996-01-30');                          
+INSERT INTO REGATY VALUES ('Baltic Vodka Trophy', 2022, '2022-01-02','2022-03-30');                  
+INSERT INTO REGATY VALUES ('Baltic Vodka Trophy', 1995, '1995-01-02','1995-01-30');                  
+INSERT INTO REGATY VALUES ('Baltic Vodka Trophy', 1996,'1996-01-02','1996-01-30');                  
+
+INSERT INTO TRASA VALUES ('Sail', 1995, 'New York', 1);                      
+INSERT INTO TRASA VALUES ('Sail', 1995, 'Wellington', 2);                    
+INSERT INTO TRASA VALUES ('Sail', 1995, 'San Francisco', 3);                 
+INSERT INTO TRASA VALUES ('Sail', 2020, 'San Francisco', 1);                 
+INSERT INTO TRASA VALUES ('Sail', 2020, 'Wellington', 2);                    
+INSERT INTO TRASA VALUES ('Sail', 2020, 'Sydney', 3);                        
+INSERT INTO TRASA VALUES ('Cutty Sark', 1995, 'Wellington', 1);              
+INSERT INTO TRASA VALUES ('Cutty Sark', 1995, 'New York', 2);                
+INSERT INTO TRASA VALUES ('Cutty Sark', 1996, 'New York', 1);                
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 2022, 'Wellington', 1);     
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 2022, 'Sydney', 2);         
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 2022, 'San Francisco', 3);  
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 2022, 'Kyoto', 4);          
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 2022, 'New York', 5);       
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 1995, 'San Francisco', 1);  
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 1995, 'Kyoto', 2);          
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 1996, 'Kyoto', 1);          
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 1996, 'San Francisco', 2);  
+INSERT INTO TRASA VALUES ('Baltic Vodka Trophy', 1996, 'New York', 3);       
+
+
+INSERT INTO Osoby VALUES ('anna', 'nowak', 'a@gmail.com', '$2y$10$DQ0ISLAK.LQehlXHZsJmYevjrR1s0kNS/0T1yo0.eu9IMhzx3MvEC', 'admin');
+INSERT INTO Osoby VALUES ('anna', 'nowak', 'o@gmail.com', '$2y$10$DQ0ISLAK.LQehlXHZsJmYevjrR1s0kNS/0T1yo0.eu9IMhzx3MvEC', 'organizator');
+INSERT INTO Osoby VALUES ('anna', 'nowak', 'z@gmail.com', '$2y$10$DQ0ISLAK.LQehlXHZsJmYevjrR1s0kNS/0T1yo0.eu9IMhzx3MvEC', 'zawodnik');

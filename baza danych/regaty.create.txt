@@ -1,0 +1,40 @@
+CREATE TABLE Port (
+  nazwa VARCHAR(20) PRIMARY KEY,
+  ocean VARCHAR(10) CHECK (ocean IN ('Atlantyk', 'Pacyfik', 'Indyjski')),
+  szerokosc_geo CHAR(4) NOT NULL,
+  dlugosc_geo CHAR(4) NOT NULL);
+
+CREATE TABLE Regaty (
+  nazwa VARCHAR(20),
+  rok INT,
+  pocz_zapisow DATE,
+  kon_zapisow DATE,
+  PRIMARY KEY (nazwa, rok));
+
+CREATE TABLE Trasa (
+  regaty VARCHAR(20),
+  rok INT,
+  port VARCHAR(20) REFERENCES Port,
+  kolejnosc INT NOT NULL,
+  PRIMARY KEY (regaty, rok, port),
+  FOREIGN KEY (regaty, rok) REFERENCES Regaty);
+
+
+CREATE TABLE Osoby(
+  imie VARCHAR(20) NOT NULL,
+  nazwisko VARCHAR(40) NOT NULL,
+  email VARCHAR(80) NOT NULL PRIMARY KEY,
+  haslo VARCHAR(100) NOT NULL,
+  typ VARCHAR(20) CHECK (typ IN ('admin', 'zawodnik', 'organizator'))
+  );
+
+CREATE TABLE Uczestnik(
+  nr_startowy BIGSERIAL PRIMARY KEY,
+  email VARCHAR(20) REFERENCES Osoby,
+  regaty VARCHAR(20),
+  rok INT,
+  FOREIGN KEY (regaty, rok) REFERENCES Regaty,
+  UNIQUE (email, regaty, rok));
+
+	
+)
