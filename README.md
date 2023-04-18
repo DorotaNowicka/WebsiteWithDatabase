@@ -8,10 +8,7 @@ PHP, HTML, CSS, and SQL in project for classes
   src="/ScreenShots/main.jpg"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; width: 450px">
-  
-
-  
+  style="display: inline-block; margin: 0 auto; width: 450px">  
 <img
   src="/ScreenShots/rejestracja.jpg"
   alt="Alt text"
